@@ -1,0 +1,58 @@
+/* General section styling for About Me */
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  /* Styling for the profile picture */
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #007bff;
+    margin-right: 20px;
+  }
+  
+  /* Text styling */
+  .about-me-text {
+    flex: 1;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .about-me-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .about-me-text p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .about-me {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .profile-pic {
+      margin: 0 0 20px 0;
+    }
+  
+    .about-me-text {
+      text-align: center;
+    }
+  }
+  
